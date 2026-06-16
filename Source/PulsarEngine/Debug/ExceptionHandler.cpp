@@ -113,7 +113,7 @@ static void WriteHeaderCrash(u16 error, const OS::Context* context, u32 dsisr, u
     //char endMsg[512];
     //snprintf(endMsg, 512, "Press A%s and send a clip\nof the crash or the crash.pul file to the pack\ncreator to help fix the bug.\n", outcome);
 
-    db::Exception_Printf_("Press A to exit. Send crash.pul to the creator.");
+    db::Exception_Printf_("Upupupupu! That's not lucky at all! - Monokuma");
     db::PrintContext_(error, context, dsisr, dar);
 
 }
